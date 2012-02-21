@@ -1,0 +1,504 @@
+ @charset "utf-8";
+
+ul, li {
+    list-style: none;
+}
+/* 引用的样式 */
+.wui-PaneShell {
+}
+/* 头部banner */
+#header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 251px;
+	background: url(../images/banner.jpg) no-repeat;
+	-webkit-border-radius: 0px 10px 10px 0px;
+}
+/* 关于按钮  */
+#help {
+	position: absolute;
+	right: 31px;
+	top: 19px;
+	width: 71px;
+	height: 46px;
+	background: url(../images/aboutBtn.png) no-repeat;
+}
+#helpBtn {
+	position: absolute;
+	width: 480px;
+	height: 200px;
+}
+#help_btn {
+	position: absolute;
+	width: 480px;
+	height: 100px;
+}
+/* 平铺条子 */
+#bar_back {
+	position: absolute;
+	top: 210px;
+	width: 100%;
+	height: 38px;
+	background: url(../images/bar_back.png);
+}
+/* 选关卡 */
+#select_btn {
+	position: absolute;
+	top: 204px;
+	left: 16px;
+	width: 123px;
+	height: 43px;
+	background: url(../images/selectBtn.png) no-repeat;
+}
+/* 内容 关卡 滑动区 */
+#content {
+	position: absolute;
+	width: 480px;
+	height: 600px;
+	float: left;
+	top: 241px;
+	background-color: #f1f1f1;
+}
+/* 滚动条 */
+.panel {
+	position: absolute;
+	width: 480px;
+	float: left;
+	background-color: #f1f1f1;
+}
+/* 滚动条  单个总方块*/
+.coupon {
+	position: relative;
+	height: 136px;
+	width:462px;
+	margin-left:9px;
+	margin-right:9px;
+	background-color: #FAFAFA;
+	border:1px solid #D4D4D4;
+	-webkit-border-radius: 8px;
+	font-size: 25px;
+	font-weight: bold;
+}
+/* 关卡图片 */
+.coupon .figure {
+	position: absolute;
+	left: 19px;
+	top: 17px;
+	height: 99px;
+	width:100px;
+	background: url(../images/suo1.png) no-repeat;
+}
+/* 关卡标题 */
+.coupon .title {
+	position: absolute;
+	top: 19px;
+	left: 139px;
+}
+/* 小星星 难度  */
+.coupon .price {
+	position: absolute;
+	right: 130px;
+	top: 19px;
+	color: #ff7200;
+	font-size: 18px;
+}
+/* 最高分 解锁条件  文字 */
+.coupon .bottom {
+	position: absolute;
+	left: 139px;
+	bottom: 22px;
+	color: #9E9E9E;
+	font-size: 20px;
+	line-height: 27px;
+}
+.slideview {
+	position: relative;
+}
+#loader {
+	position:absolute;
+	top:0px;
+	left:0px;
+	color: #237a98;
+	width: 480px;
+	height: 800px;
+	background-color: #FFFFFF;
+	opacity: 1;
+}
+#loader img {
+	position:absolute;
+	top:300px;
+	left:180px;
+}
+#load_txt {
+	position:absolute;
+	top:330px;
+	left:130px;
+	font-size: 25px;
+}
+/* 游戏场景 -------------------------------------------------------------------------------------------*/
+/* 头部banner */
+#header_game {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 113px;
+	background-color: #0B9ECD;
+}
+/* 平铺条子 */
+#game_bar_back {
+	position: absolute;
+	top: 82px;
+	width: 100%;
+	height: 31px;
+	background-color:#C53F00;
+	background: url(../images/bar_back.png);
+	-webkit-border-radius: 10px 10px 0px 0px;
+}
+/* 头部背景 */
+#header_back {
+	position: absolute;
+	left: 5px;
+	top: 8px;
+	width: 470px;
+	height: 77px;
+	background: url(../images/game_bar.png) no-repeat;
+}
+/* 返回按钮  */
+#backBtn {
+	position: absolute;
+	left: 16px;
+	top: 13px;
+	width: 95px;
+	height: 60px;
+}
+/* 最高连击 文字  */
+#game_bestScore {
+	position: absolute;
+	left: 193px;
+	top: 24px;
+	font-size: 35px;
+	color: #237a98;
+	font-style: italic;
+	font-weight: bold;
+	width: 200px;
+	height: 200px;
+}
+/* 连击文字  */
+#game_score {
+	position: absolute;
+	left: 391px;
+	top: 24px;
+	width: 200px;
+	height: 200px;
+	font-size: 35px;
+	color: #D41E1E;
+	font-style: italic;
+	font-weight: bold;
+}
+/* 中间难度 星星  */
+#game_nandu {
+	position: absolute;
+	left: 140px;
+	top: 75px;
+	width: 207px;
+	height: 50px;
+	background: url(../images/game_nandu.png) no-repeat;
+}
+#game {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	background-color: #223344;
+	width: 100%;
+	height: 100%;
+}
+#about_panle{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#about_back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+}
+.laji_help {
+	position: absolute;
+	top: 19px;
+	left: 20px;
+	background-color: #262626;
+	width: 440px;
+	height: 700px;
+	color: #c6c6c6;
+	-webkit-border-radius: 10px;
+	font-size: 28px;
+}
+.laji_banner {
+	position: absolute;
+	width: 440px;
+	height: 46px;
+	background-color:#fff;
+	-webkit-border-radius: 10px 10px 0 0;
+	opacity: 0.05;
+}
+.laji_line {
+	position: absolute;
+	width: 440px;
+	height: 2px;
+	top:47px;
+	background: url(../images/line.png) no-repeat;
+}
+.laji_title {
+	position: absolute;
+	top: 11px;
+	left: 26px;
+	color: #fff;
+}
+.title1 {color: #FFFFFF; font-size: 23px; left: 36px; position: absolute; }
+#title1 {top: 69px; }
+#title2 {top: 197px; }
+#title3 {top: 575px; }
+
+.title2 {text-shadow:0px 0px 0px;color: #C6C6C6; font-size: 18px; left: 36px; position: absolute; font-weight: normal;  }
+#title1_txt {top: 107px; }
+#title2_txt {top: 157px; color: #fec500; }
+#title3_txt {top: 133px; }
+#user1 {top: 613px; }
+#user2 {top: 638px; }
+
+#title_img {position: absolute; top: 233px; left: 30px; background: url(../images/laji_icon.png) no-repeat; width: 366px; height: 61px;}
+#title_a {top: 308px; color: #0083cc;}
+#title_a1 {top: 332px;}
+#title_b {top: 360px; color: #e80c0c;}
+#title_b1 {top: 384px; width: 370px;}
+#title_c {top: 432px; color: #34BF4b;}
+#title_c1 {top: 456px;}
+#title_d {top: 486px; color: #fec500;}
+#title_d1 {top: 510px; width: 370px;}
+
+.laji_close {
+	right: 9px;
+	top: 9px;
+	width: 31px;
+	height: 31px;
+	position: absolute;
+	background: url(../images/close.png) no-repeat;
+}
+#yinying1 {
+	position: absolute;
+	width: 164px;
+	height: 46px;
+	background: url(../images/yinying1.png) no-repeat;
+	top:496px;
+	left:150px;
+}
+#yinying2 {
+	position: absolute;
+	width: 106px;
+	height: 37px;
+	background: url(../images/yinying.png) no-repeat;
+	top:420px;
+	left:180px;
+}
+#yinying3 {
+	position: absolute;
+	width: 106px;
+	height: 37px;
+	background: url(../images/yinying.png) no-repeat;
+	top:496px;
+	left:150px;
+}
+#target {
+	position: absolute;
+	top: 390px;
+	left: 200px;
+	background-color: #0163E9;
+	width: 115px;
+	height: 35px;
+	opacity: 0;
+}
+#target1 {
+	position: absolute;
+	top: 390px;
+	left: 200px;
+	background-color: #C33F08;
+	width: 115px;
+	height: 35px;
+	opacity: 0;
+}
+#target2 {
+	position: absolute;
+	top: 390px;
+	left: 200px;
+	background-color: #C33F08;
+	width: 115px;
+	height: 35px;
+	opacity: 0;
+}
+#target_bottom {
+	position: absolute;
+	top: 410px;
+	left: 180px;
+	width: 100px;
+	height: 100px;
+	/*background: url(../images/test_target.png) no-repeat;*/
+}
+#target_top {
+	position: absolute;
+	top: 410px;
+	left: 180px;
+	width: 100px;
+	height: 100px;
+}
+#wind {
+	position: absolute;
+	top: 580px;
+	left: 20px;
+	width: 160px;
+	height: 30px;
+	color: #FFFFFF;
+	font-size: 22px;
+	/*font-weight: bold;*/
+	background-color: #000000;
+	-webkit-border-radius: 10px;
+	text-align: center;
+	opacity: 0.7;
+}
+#tooltip_best {
+	position: absolute;
+	top: 240px;
+	left: 130px;
+	width: 250px;
+	height: 35px;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: normal;
+	display: none;
+	background-color: #000000;
+	-webkit-border-radius: 10px;
+	text-align: center;
+	opacity: 1;
+}
+#tooltip_lock {
+	position: absolute;
+	top: 240px;
+	left: 50px;
+	width: 400px;
+	height: 35px;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: normal;
+	display: none;
+	background-color: #000000;
+	-webkit-border-radius: 10px;
+	text-align: center;
+	opacity: 1;
+}
+#ball {
+	position: absolute;
+	top: 590px;
+	left: 205px;
+	/*background-color: #cc3344;*/
+	/*background: url(../images/test_ball.png) no-repeat;*/
+}
+#ball img {
+	width: 72px;
+	height: 72px;
+}
+
+#direction {
+	position: absolute;
+	top: 550px;
+	left: 210px;
+	background-color: #ffffff;
+	width: 10px;
+	height: 100px;
+	opacity: 0;
+}
+#shoot {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #ffffff;
+	width: 480px;
+	height: 800px;
+	display: none;
+	opacity: 0.5;
+}
+#game div {
+	position: absolute;
+}
+
+#fist {
+	background: url(../images/fist.png) no-repeat;
+	width: 52px;
+	height: 58px;
+	display: none;
+}
+#aaa {
+	position:absolute;
+	top:114px;
+	left:0px;
+	color: #FFFFFF;
+	width: 480px;
+	height: 700px;
+	background-color: #000000;
+	opacity: 0;
+}
+/*    垃圾知识    */
+#know {
+	position: absolute;
+	top: 300px;
+	left: 60px;
+	width: 370px;
+	height: 100px;
+	display: none;
+}
+#know_back {
+	position: absolute;
+	width: 370px;
+	height: 100px;
+	background-color: #000000;
+	opacity: 0.5;
+	-webkit-border-radius: 10px;
+}
+#laji {
+	position: absolute;
+	top:20px;
+	left: 20px;
+	width:64px;
+	height:64px;
+}
+#txt {
+	position: absolute;
+	bottom:10px;
+	left: 100px;
+	width: 170px;
+	height: 30px;
+	color:#FFFFFF;
+	font-size:30px;
+	text-align: center;
+}
+#jiandou {
+	position: absolute;
+	top:10px;
+	left: 100px;
+	color:#FFFFFF;
+	font-size:30px;
+	width:170px;
+	height:40px;
+	text-align: center;
+}
+#lajitong {
+	position: absolute;
+	right:20px;
+	top:10px;
+	width:60px;
+	height:80px;
+}

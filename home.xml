@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<div id="home">
+    <div id='header'>
+		<div id="help"></div>
+		<div id="helpBtn"></div>
+		<div id="bar_back"></div>
+	</div>
+	<div id='content'>
+	<div class="panel">
+	<div class="couponlist">
+	<div id="list-scroller" class="scrollview" style="height: 450px;">
+    <div id="scroller" class="scroller">
+        <ul id="home_list" class="db_big_list" style="min-height: 450px;">	
+          <div style="height:15px;"></div>
+         	<a _action="level1">
+         	 <div class='coupon'>
+	          	<div class="figure"></div>
+	          	<p class="title">欢乐厨房</p>
+	          	<div class="price">
+	          		<p class="nandu">难度</p>
+	          		<div style="position: absolute;left:50px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:70px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:90px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:110px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:130px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          	</div>
+	          	<div class="bottom">
+	          		<p class="valid">最高连击：0次</p>
+	          		<p class="expire">解锁条件：默认解锁</p>
+	          	</div>
+         	 </div>  
+          	</a>     
+          <div style="height:9px;"></div> 
+          <a _action="level2">
+         	 <div class='coupon'>
+	          	<div class="figure"></div>
+	          	<p class="title">幽灵深处</p>
+	          	<div class="price">
+	          		<p class="nandu">难度</p>
+	          		<div style="position: absolute;left:50px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:70px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:90px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:110px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:130px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          	</div>
+	          	<div class="bottom">
+	          		<p class="valid">最高连击：0</p>
+	          		<p class="expire">解锁条件：上一级连击5次</p>
+	          	</div>
+         	 </div>  
+          	</a> 
+          <div style="height:9px;"></div>
+          <a _action="level3">
+         	 <div class='coupon'>
+	          	<div class="figure"></div>
+	          	<p class="title">废墟残垣</p>
+	          	<div class="price">
+	          		<p class="nandu">难度</p>
+	          		<div style="position: absolute;left:50px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:70px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:90px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:110px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:130px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          	</div>
+	          	<div class="bottom">
+	          		<p class="valid">最高连击：0次</p>
+	          		<p class="expire">解锁条件：上一级连击5次</p>
+	          	</div>
+         	 </div>  
+          	</a> 
+          <div style="height:9px;"></div>
+          <a _action="level4">
+         	 <div class='coupon'>
+	          	<div class="figure"></div>
+	          	<p class="title">乡间古道</p>
+	          	<div class="price">
+	          		<p class="nandu">难度</p>
+	          		<div style="position: absolute;left:50px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:70px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:90px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:110px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:130px;top:1px;width:18px;height:17px;background: url(res/images/xinxin.png) no-repeat;"></div>
+	          	</div>
+	          	<div class="bottom">
+	          		<p class="valid">最高连击：0次</p>
+	          		<p class="expire">解锁条件：上一级连击5次</p>
+	          	</div>
+         	 </div>  
+          	</a> 
+          <div style="height:9px;"></div>
+          <a _action="level5">
+         	 <div class='coupon'>
+	          	<div class="figure"></div>
+	          	<p class="title">世外果园</p>
+	          	<div class="price">
+	          		<p class="nandu">难度</p>
+	          		<div style="position: absolute;left:50px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:70px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:90px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:110px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          		<div style="position: absolute;left:130px;top:1px;width:18px;height:17px;background: url(res/images/xinxin_liang.png) no-repeat;"></div>
+	          	</div>
+	          	<div class="bottom">
+	          		<p class="valid">最高连击：0次</p>
+	          		<p class="expire">解锁条件：上一级连击5次</p>
+	          	</div>
+         	 </div>  
+          	</a> 
+          <div style="height:15px;"></div>    
+        </ul>
+    </div>
+	</div>
+	</div>
+	</div>
+</div>
+<div id="select_btn"></div>
+<div id="about_panle">
+	<div id="about_back"></div>
+	<div class="laji_help">
+		<div class="laji_banner"></div>
+		<div class="laji_line"></div>
+		<div class="laji_title">关于游戏</div>
+		<div class="laji_close"></div>
+			<div id="title1" class="title1">游戏介绍</div>
+				<p id="title1_txt" class="title2">> 一款好玩,会让人耳濡目染学会分类的游戏~</p>
+				<p id="title3_txt" class="title2">> 你只需向上划动手势,把垃圾投射进去~</p>
+				<p id="title2_txt" class="title2">PS:注意风向大小哦~~</p>
+			<div id="title2" class="title1">垃圾分类说明</div>
+				<div id="title_img"></div>
+				<p id="title_a" class="title2">> 可回收垃圾【蓝】</p>
+				<p id="title_a1" class="title2">--主要是废纸、塑料、玻璃、金属和布料五大类</p>
+				<p id="title_b" class="title2">> 有害垃圾【红】</p>
+				<p id="title_b1" class="title2">--包括废电池、废日光灯管、废水银温度计、过期药品等~</p>
+				<p id="title_c" class="title2">> 厨房垃圾【绿】</p>
+				<p id="title_c1" class="title2">--包括剩菜剩饭、骨头、菜根菜叶等食品类废物</p>
+				<p id="title_d" class="title2">> 其它垃圾【黄】</p>
+				<p id="title_d1" class="title2">--包括除上述几类垃圾之外的砖瓦陶瓷、渣土、卫生间废纸等难以回收的废弃物.</p>
+			<div id="title3" class="title1">反馈信箱</div>
+				<p id="user1" class="title2"> > 韩升：hansheng@taohua.com</p>
+				<p id="user2" class="title2"> > 洞灵：dongling@taohua.com</p>
+	</div>
+</div>
+<div id="loader">
+	<img src="res/images/loading.gif" />
+	<div id="load_txt">稍等片刻，游戏加载中！</div>
+	<img src="res/images/banner.jpg" style="width:0px;" />
+	<img src="res/images/fist.png" style="width:0px;" />
+	<img src="res/images/game_bar.png" style="width:0px;" />
+	<img src="res/images/game_nandu.png" style="width:0px;" />
+	<img src="res/images/selectBtn.png" style="width:0px;" />
+	
+	<img src="res/images/small1.png" style="width:0px;" />
+	<img src="res/images/small2.png" style="width:0px;" />
+	<img src="res/images/small3.png" style="width:0px;" />
+	<img src="res/images/small4.png" style="width:0px;" />
+	<img src="res/images/small5.png" style="width:0px;" />
+	
+	<img src="res/images/suo1.png" style="width:0px;" />
+	<img src="res/images/suo2.png" style="width:0px;" />
+	<img src="res/images/suo3.png" style="width:0px;" />
+	<img src="res/images/suo4.png" style="width:0px;" />
+	<img src="res/images/suo5.png" style="width:0px;" />
+	
+</div>
+</div>
